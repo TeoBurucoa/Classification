@@ -3,6 +3,8 @@
 Ce document a pour but de vous aider à installer l'environnement
 nécessaire afin de faire fonctionner la prédiciton d'un chiffre
 à partir d'une image.
+Trois images vous son fournies afin de tester l'application
+à plusieurs reprises.
 Veuillez suivre les étapes suivantes afin que tout fonctionne :
 
 ### Installation de Docker
