@@ -11,11 +11,11 @@ Veuillez suivre les étapes suivantes afin que tout fonctionne :
 
 - Si vous ne disposez pas encore de Docker sur votre machine, il est
   nécessaire de l'installer à l'aide la commande suivante sur un 
-  terminal:  sudo apt install docker.io
+  terminal:  " sudo apt install docker.io "
 
 ### Récupérer les documents de GIT
 
-- Sur le dépôt Git envoyé,cliquer sur "Extraire tout" afin de récupérer
+- Sur le dépôt Git envoyé,cliquer sur "Download ZIP" afin de récupérer
   tous les fichiers nécessaires
 - Enregistrer tous les fichiers dans l'emplacement que vous désirez
   sur votre machine
@@ -24,7 +24,7 @@ Veuillez suivre les étapes suivantes afin que tout fonctionne :
 
 - Ouvrir un terminal et se positionner à l'emplacement où les documents
   ont été téléchargés (à l'aide de la commande "cd")
-- Entrer la commande suivante: docker build -t class .
+- Entrer la commande suivante: " docker build -t class ".
   (Ne pas oublier le "." à la fin)
 
 Après une courte durée de chargement, nous possédons le 
@@ -37,7 +37,7 @@ qui est affiché sur l'image. Ainsi, il faut que vous spécifiiez l'image
 que l'on désire tester.
 Pour ce faire:
 - Lancer la commande suivante sur le terminal (toujours positionné au
-  même emplacement): ./docker.sh
+  même emplacement): " ./docker.sh "
 - lorsque que cela vous l'est demandé, entrer le nom de l'image en 
   n'oubliant pas l'extension (.png par exemple).
 
