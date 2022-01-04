@@ -3,8 +3,6 @@
 
 FROM python
 
-#ARG DEBIAN_FRONTEND=noninteractive
-
 RUN apt-get update -yq \
 && apt-get install apt-utils -yq \
 && apt-get install python3-pip -yq \
@@ -22,6 +20,6 @@ RUN apt-get update -yq \
 
 WORKDIR /home/docker/
 
-COPY training.py inference.py neural_network.h5 test_pourri.py  ./
+COPY training.py inference.py neural_network.h5  ./
 
 #CMD ["python","/home/docker/inference.py"]
