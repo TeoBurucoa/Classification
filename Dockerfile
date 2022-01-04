@@ -20,6 +20,6 @@ RUN apt-get update -yq \
 
 WORKDIR /home/docker/
 
-COPY training.py inference.py neural_network.h5  ./
+COPY training.py inference.py neural_network.h5 ./
 
 #CMD ["python","/home/docker/inference.py"]
